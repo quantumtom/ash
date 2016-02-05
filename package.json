@@ -17,5 +17,6 @@
   },
   "homepage": "https://github.com/quantumtom/ash#readme",
   "dependencies": {
+    "handlebars": "^4.0.5"
   }
 }
