@@ -17,6 +17,5 @@
   },
   "homepage": "https://github.com/quantumtom/ash#readme",
   "dependencies": {
-    "express": "^4.13.4"
   }
 }
