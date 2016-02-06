@@ -17,9 +17,10 @@
 
 
 
-html {
+body {
    background: url(../img/cover.jpeg) no-repeat center center fixed;
    background-size: cover;
+
 }
 
 

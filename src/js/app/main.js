@@ -3,8 +3,8 @@
  */
 
 requirejs([
-  'app/views/banner',
   'app/views/navbar',
+  'app/views/banner',
   'app/views/buttons',
   'app/views/typography',
   'app/views/tables',
