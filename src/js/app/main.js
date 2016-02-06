@@ -1,3 +1,7 @@
+/**
+ * Load all the views.
+ */
+
 requirejs([
   'app/views/banner',
   'app/views/navbar',

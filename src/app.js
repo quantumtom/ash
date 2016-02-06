@@ -14,7 +14,7 @@ requirejs.config({
     // is using jQuery 1.9.0 located at
     // js/lib/jquery-1.9.0.js, relative to
     // the HTML page.
-    bootstrap: 'lib/bootstrap',
+    bootstrap: 'lib/bootstrap.min',
     jquery: 'lib/jquery-1.11.2.min',
     Handlebars: 'lib/handlebars',
     text: 'lib/text',
