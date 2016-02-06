@@ -1,3 +1,10 @@
-/**
- * Created by thomascornyn on 2/5/16.
- */
+define(function (require) {
+  require(['hbar!prt/containers', 'jquery'], function (template, $) {
+    var data = {
+      title: 'My Title',
+      body: 'My Body'
+    };
+
+    $(template(data)).appendTo($('#root'));
+  });
+});
