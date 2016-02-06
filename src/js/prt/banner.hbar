@@ -1,8 +1,8 @@
 <div class="page-header" id="banner">
   <div class="row">
     <div class="col-lg-8 col-md-7 col-sm-6">
-      <h1>Lumen</h1>
-      <p class="lead">{{title}}</p>
+      <h1>{{title}}</h1>
+      <p class="lead">{{lead}}</p>
     </div>
   </div>
   <div class="row">
@@ -15,7 +15,7 @@
         <a class="list-group-item" href="#forms">Forms</a>
         <a class="list-group-item" href="#navs">Navs</a>
         <a class="list-group-item" href="#indicators">Indicators</a>
-        <a class="list-group-item" href="#progress-bars">Progress bars</a>
+        <a class="list-group-item" href="#progressbars">Progress bars</a>
         <a class="list-group-item" href="#containers">Containers</a>
         <a class="list-group-item" href="#dialogs">Dialogs</a>
       </div>

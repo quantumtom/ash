@@ -1,8 +1,8 @@
 define(function (require) {
-  require(['hbar!prt/progress-bars', 'jquery'], function (template, $) {
+  require(['hbar!prt/progressbars', 'jquery'], function (template, $) {
     var data = {
       title: 'My Title',
-      body: 'My Body'
+      lead: 'My Lead'
     };
 
     $(template(data)).appendTo($('#root'));
