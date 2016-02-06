@@ -11,7 +11,7 @@ requirejs([
   'app/views/forms',
   'app/views/navs',
   'app/views/indicators',
-  'app/views/progress-bars',
+  'app/views/progressbars',
   'app/views/containers',
   'app/views/dialogs',
   'app/views/footer'
