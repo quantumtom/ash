@@ -6,9 +6,6 @@
 requirejs.config({
   baseUrl: 'js',
   paths: {
-    app: 'app',
-    lib: 'lib',
-    tpl: 'tpl',
     // the left side is the module ID,
     // the right side is the path to
     // the jQuery file, relative to baseUrl.
@@ -18,8 +15,17 @@ requirejs.config({
     // js/lib/jquery-1.9.0.js, relative to
     // the HTML page.
     jquery: 'lib/jquery-1.11.2.min',
-    handlebars: 'lib/handlebars',
-    text: 'lib/text'
+    Handlebars: 'lib/handlebars',
+    text: 'lib/text',
+    hbar: 'lib/hbars'
+  },
+  shim: {
+    Handlebars: {
+      exports: 'Handlebars'
+    }
+  },
+  hbars: {
+   extension: '.hbar' // default = '.html'
   }
 });
 
