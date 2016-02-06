@@ -1,3 +1,2 @@
-# ash
-Movie site demonstrator
+# Bootstrap through Handlebars via RequireJS
 
