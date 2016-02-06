@@ -1,0 +1,43 @@
+{
+  "boss":          true,
+  "browser":       true,
+  "curly":         true,
+  "eqeqeq":        true,
+  "eqnull":        true,
+  "expr":          true,
+  "immed":         true,
+  "latedef":       true,
+  "noarg":         true,
+  "undef":         true,
+  "unused":        true,
+  "multistr":      true,
+  "maxcomplexity": 9,
+  "maxdepth":      2,
+  "esnext":        true,
+
+  "sub":           true,
+  "newcap":        true,
+  "maxlen":        120,
+
+  "globals":       {
+    "define":               true,
+    "$":                    true,
+    "algoliasearch":        true,
+    "algoliasearchHelper":  true,
+    "unescape":             true,
+    "toastr":               true,
+    "React":                true,
+    "ReactDOM":             true,
+    "ReactDOMServer":       true,
+    "describe":             true,
+    "xdescribe":            true,
+    "fdescribe":            true,
+    "beforeEach":           true,
+    "afterEach":            true,
+    "it":                   true,
+    "xit":                  true,
+    "fit":                  true,
+    "expect":               true,
+    "spyOn":                true
+  }
+}
