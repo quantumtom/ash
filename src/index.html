@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html>
 <head>
 
   <meta charset="utf-8">
@@ -10,8 +10,6 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme-slate.min.css">
   <link rel="stylesheet" href="css/main.css">
@@ -21,12 +19,18 @@
 <body>
 
 <section>
+  <div id="target-one"></div>
+</section>
+
+<section>
+  <div id="target-two"></div>
+</section>
+
+<section>
   <div id="carousel">This is the carousel.</div>
 </section>
 
-<script type="text/javascript" src="js/require-setup.js"></script>
-<script type="text/javascript" src="js/vendor/require.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script data-main="app" src="js/lib/require.js"></script>
 
 </body>
 
