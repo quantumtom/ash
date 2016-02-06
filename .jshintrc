@@ -13,8 +13,6 @@
   "multistr":      true,
   "maxcomplexity": 9,
   "maxdepth":      2,
-  "esnext":        true,
-
   "sub":           true,
   "newcap":        true,
   "maxlen":        120,
