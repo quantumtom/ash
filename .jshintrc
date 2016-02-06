@@ -22,23 +22,6 @@
   "globals":       {
     "define":               true,
     "requirejs":            true,
-    "$":                    true,
-    "algoliasearch":        true,
-    "algoliasearchHelper":  true,
-    "unescape":             true,
-    "toastr":               true,
-    "React":                true,
-    "ReactDOM":             true,
-    "ReactDOMServer":       true,
-    "describe":             true,
-    "xdescribe":            true,
-    "fdescribe":            true,
-    "beforeEach":           true,
-    "afterEach":            true,
-    "it":                   true,
-    "xit":                  true,
-    "fit":                  true,
-    "expect":               true,
-    "spyOn":                true
+    "$":                    true
   }
 }
