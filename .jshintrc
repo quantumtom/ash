@@ -18,10 +18,11 @@
   "maxlen":        120,
 
   "globals":       {
+    "console":              true,
+    "$":                    true,
     "define":               true,
     "requirejs":            true,
     "require":              true,
-    "$":                    true,
     "module":               true
   }
 }
