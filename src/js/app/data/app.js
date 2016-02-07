@@ -1,5 +1,6 @@
-define(function (require) {
-  require(['views/banner', 'jquery'], function (bannerView, $) {
-    $(bannerView).appendTo($('#root'));
-  });
+define(function () {
+  return {
+    title: 'My Title',
+    body: 'My Body'
+  };
 });

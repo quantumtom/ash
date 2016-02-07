@@ -1,3 +1,5 @@
-/**
- * Created by thomascornyn on 2/7/16.
- */
+define(function (require) {
+  require(['views/banner', 'jquery'], function (bannerView, $) {
+    $(bannerView).appendTo($('#root'));
+  });
+});

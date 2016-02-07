@@ -21,7 +21,8 @@ requirejs.config({
     hbar: 'lib/hbars',
     prt: 'app/prt',
     views: 'app/views',
-    models: 'app/models'
+    models: 'app/data/models',
+    controllers: 'app/controllers'
   },
   shim: {
     bootstrap: {
@@ -42,4 +43,7 @@ requirejs.config({
 
 // Start loading the main app file. Put all of
 // your application logic in there.
-requirejs(['app/main']);
+requirejs(['app/main'], function () {
+  // Load stuff here.
+  console.log('Load main from app.js');
+});

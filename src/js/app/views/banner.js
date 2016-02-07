@@ -1,10 +1,11 @@
 define(function (require) {
-  require(['hbar!prt/banner'], function (template) {
-    var data = {
-      title: 'My Title',
-      body: 'My Body'
-    };
+  return require(
+      [
+        'hbar!prt/banner',
+        'app/data/app'
+      ], function (template, appData) {
+        console.dir(appData);
 
-    $(template(data)).appendTo($('#root'));
+    return template(appData);
   });
 });
