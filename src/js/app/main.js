@@ -3,16 +3,16 @@
  */
 
 requirejs([
-  'app/views/navbar',
-  'app/views/banner',
-  'app/views/buttons',
-  'app/views/typography',
-  'app/views/tables',
-  'app/views/forms',
-  'app/views/navs',
-  'app/views/indicators',
-  'app/views/progressbars',
-  'app/views/containers',
-  'app/views/dialogs',
-  'app/views/footer'
+  'views/banner',
+  'views/navbar',
+  'views/buttons',
+  'views/typography',
+  'views/tables',
+  'views/forms',
+  'views/navs',
+  'views/indicators',
+  'views/progressbars',
+  'views/containers',
+  'views/dialogs',
+  'views/footer'
 ]);
