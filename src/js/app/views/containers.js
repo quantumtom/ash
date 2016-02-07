@@ -1,5 +1,5 @@
 define(function (require) {
-  require(['hbar!prt/containers', 'jquery'], function (template, $) {
+  require(['hbar!prt/containers'], function (template) {
     var data = {
       title: 'My Title',
       body: 'My Body'

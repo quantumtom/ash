@@ -1,5 +1,5 @@
 define(function (require) {
-  require(['hbar!prt/progressbars', 'jquery'], function (template, $) {
+  require(['hbar!prt/progressbars'], function (template) {
     var data = {
       title: 'My Title',
       lead: 'My Lead'

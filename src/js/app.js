@@ -27,6 +27,9 @@ requirejs.config({
     Handlebars: {
       deps: ['bootstrap'],
       exports: 'Handlebars'
+    },
+    'jquery': {
+      exports: '$'
     }
   },
   hbars: {
