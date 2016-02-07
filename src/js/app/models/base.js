@@ -1,3 +1,10 @@
-/**
- * Created by thomascornyn on 2/7/16.
- */
+define(function (require) {
+  require(['hbar!prt/banner', 'jquery'], function (template, $) {
+    var data = {
+      title: 'My Title',
+      body: 'My Body'
+    };
+
+    $(template(data)).appendTo($('#root'));
+  });
+});
