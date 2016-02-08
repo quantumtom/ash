@@ -8,7 +8,7 @@ A demonstration of how to render Bootstrap components onto Handlebars templates 
 
 I wanted to find a way to load Bootstrap teplates using Handlebars, ideally doing so with RequireJS. These solutions all seemed to incorporate Backbone or some other off-the-shelf MVC/P framework. I wanted to do all that, but without using a third-party MVC framework.
 
-It took a few hours, but I was finally able to implement that formula using a [RequireJS Handlebars plugin](https://github.com/jfparadis/requirejs-handlebars) authored by (Jean-Francois Paradis)[http://www.jeanfrancoisparadis.com/].
+It took a few hours, but I was finally able to implement that formula using a [RequireJS Handlebars plugin](https://github.com/jfparadis/requirejs-handlebars) authored by [Jean-Francois Paradis](http://www.jeanfrancoisparadis.com/).
 
 ## Credits
 
