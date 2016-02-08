@@ -1,10 +1,18 @@
-define(function (require) {
-  require(['hbar!prt/buttons'], function (template) {
-    var data = {
-      title: 'My Title',
-      body: 'My Body'
-    };
+define(function () {
 
-    $(template(data)).appendTo($('#root'));
-  });
+  function render() {
+    require(
+        [
+          'hbar!parts/buttons',
+          'data/buttons'
+        ], function (buttonsPart, buttonsData) {
+          var appDiv = document.getElementById('page-body');
+
+          appDiv.innerHTML = buttonsPart(buttonsData);
+        });
+  }
+
+  return {
+    render:render
+  };
 });

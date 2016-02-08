@@ -1,10 +1,18 @@
-define(function (require) {
-  require(['hbar!prt/dialogs'], function (template) {
-    var data = {
-      title: 'My Title',
-      body: 'My Body'
-    };
+define(function () {
 
-    $(template(data)).appendTo($('#root'));
-  });
+  function render() {
+    require(
+        [
+          'hbar!parts/dialogs',
+          'data/dialogs'
+        ], function (dialogsPart, dialogsData) {
+          var appDiv = document.getElementById('page-body');
+
+          appDiv.innerHTML = dialogsPart(dialogsData);
+        });
+  }
+
+  return {
+    render:render
+  };
 });

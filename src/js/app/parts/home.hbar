@@ -1,0 +1,8 @@
+<div class="page-header" id="home">
+  <div class="row">
+    <div class="col-lg-8 col-md-7 col-sm-6">
+      <h1>{{title}}</h1>
+      <p class="lead">{{body}}</p>
+    </div>
+  </div>
+</div>

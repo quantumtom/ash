@@ -1,10 +1,18 @@
-define(function (require) {
-  require(['hbar!prt/progressbars'], function (template) {
-    var data = {
-      title: 'My Title',
-      lead: 'My Lead'
-    };
+define(function () {
 
-    $(template(data)).appendTo($('#root'));
-  });
+  function render() {
+    require(
+        [
+          'hbar!parts/progressbars',
+          'data/progressbars'
+        ], function (progressbarsPart, progressbarsData) {
+          var appDiv = document.getElementById('page-body');
+
+          appDiv.innerHTML = progressbarsPart(progressbarsData);
+        });
+  }
+
+  return {
+    render:render
+  };
 });

@@ -1,20 +1,20 @@
 /**
- * Load all the views.
+ * Load all the Views.
  */
 
-requirejs([
-  'views/banner'
-  //'views/buttons',
-  //'views/navbar',
-  //'views/typography',
-  //'views/tables',
-  //'views/forms',
-  //'views/navs',
-  //'views/indicators',
-  //'views/progressbars',
-  //'views/containers',
-  //'views/dialogs',
-  //'views/footer'
-], function () {
-  console.log('Main loaded');
+require([
+  //'models/user',
+  'controllers/home',
+  'router'
+], function (home, router) {
+
+  //var users = [new User('Barney'),
+  //  new User('Cartman'),
+  //  new User('Sheldon')];
+  //
+  //localStorage.users = JSON.stringify(users);
+
+  home.start();
+
+  router.startRouting();
 });

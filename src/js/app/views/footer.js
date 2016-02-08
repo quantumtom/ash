@@ -1,9 +1,18 @@
-define(function (require) {
-  require(['hbar!prt/footer'], function (template) {
-    var data = {
-      copyright: '©2016 AwesomenessTV, Inc. All rights reserved. Los Angeles, California, U.S.A.'
-    };
+define(function () {
 
-    $(template(data)).appendTo($('#root'));
-  });
+  function render() {
+    require(
+        [
+          'hbar!parts/footer',
+          'data/footer'
+        ], function (footerPart, footerData) {
+          var appDiv = document.getElementById('page-body');
+
+          appDiv.innerHTML = footerPart(footerData);
+        });
+  }
+
+  return {
+    render:render
+  };
 });

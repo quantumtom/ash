@@ -8,7 +8,7 @@ module.exports = function (grunt) {
           'src/js/**/*.js',
           '!src/js/require.js',
           '!src/js/lib/**',
-          '!src/js/prt/**'
+          '!src/js/app/Partials/**'
         ]
       },
       options: {

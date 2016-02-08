@@ -3,12 +3,12 @@ define(function () {
   function render() {
     require(
         [
-          'hbar!parts/tables',
-          'data/tables'
-        ], function (tablesPart, tablesData) {
+          'hbar!parts/home',
+          'data/home'
+        ], function (homePart, homeData) {
           var appDiv = document.getElementById('page-body');
 
-          appDiv.innerHTML = tablesPart(tablesData);
+          appDiv.innerHTML = homePart(homeData);
         });
   }
 

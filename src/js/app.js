@@ -14,15 +14,16 @@ requirejs.config({
     // is using jQuery 1.9.0 located at
     // js/lib/jquery-1.9.0.js, relative to
     // the HTML page.
-    bootstrap: 'lib/bootstrap',
-    jquery: 'lib/jquery',
-    Handlebars: 'lib/handlebars',
-    text: 'lib/text',
-    hbar: 'lib/hbars',
-    prt: 'app/prt',
-    views: 'app/views',
-    models: 'app/data/models',
-    controllers: 'app/controllers'
+    bootstrap:      'lib/bootstrap',
+    jquery:         'lib/jquery',
+    Handlebars:     'lib/handlebars',
+    text:           'lib/text',
+    hbar:           'lib/hbars',
+    router:         'app/router',
+    parts:          'app/parts',
+    controllers:    'app/controllers',
+    data: 'app/data',
+    views: 'app/views'
   },
   shim: {
     bootstrap: {
@@ -44,6 +45,4 @@ requirejs.config({
 // Start loading the main app file. Put all of
 // your application logic in there.
 requirejs(['app/main'], function () {
-  // Load stuff here.
-  console.log('Load main from app.js');
 });

@@ -1,10 +1,18 @@
-define(function (require) {
-  require(['hbar!prt/forms'], function (template) {
-    var data = {
-      title: 'My Title',
-      body: 'My Body'
-    };
+define(function () {
 
-    $(template(data)).appendTo($('#root'));
-  });
+  function render() {
+    require(
+        [
+          'hbar!parts/forms',
+          'data/forms'
+        ], function (formsPart, formsData) {
+          var appDiv = document.getElementById('page-body');
+
+          appDiv.innerHTML = formsPart(formsData);
+        });
+  }
+
+  return {
+    render:render
+  };
 });

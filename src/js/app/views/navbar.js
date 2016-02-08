@@ -1,10 +1,18 @@
-define(function (require) {
-  require(['hbar!prt/navbar'], function (template) {
-    var data = {
-      title: 'My Title',
-      body: 'My Body'
-    };
+define(function () {
 
-    $(template(data)).appendTo($('#root'));
-  });
+  function render() {
+    require(
+        [
+          'hbar!parts/navbar',
+          'data/navbar'
+        ], function (navbarPart, navbarData) {
+          var appDiv = document.getElementById('page-body');
+
+          appDiv.innerHTML = navbarPart(navbarData);
+        });
+  }
+
+  return {
+    render:render
+  };
 });
