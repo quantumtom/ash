@@ -1,4 +1,4 @@
-<div class="page-header" id="base">
+<div id="base">
   <div class="row">
     <div class="col-lg-8 col-md-7 col-sm-6">
       <h1>This is a Base View</h1>
