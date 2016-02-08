@@ -2,7 +2,7 @@
 
 A demonstration of how to render Bootstrap components onto Handlebars templates using the RequireJS loader.
 
-# Handlebars via RequireJS
+## Handlebars via RequireJS
 
 I implemented Handlebar template rendering through RequireJS using a RequireJS Handlebars plugin: 
 https://github.com/jfparadis/requirejs-handlebars
