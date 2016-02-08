@@ -3,18 +3,18 @@
  */
 
 require([
-  //'models/user',
+  'models/user',
   'controllers/home',
-  'router'
-], function (home, router) {
+  'app/Router'
+], function (User, Home, Router) {
 
-  //var users = [new User('Barney'),
-  //  new User('Cartman'),
-  //  new User('Sheldon')];
-  //
-  //localStorage.users = JSON.stringify(users);
+  var users = [new User('Barney'),
+    new User('Cartman'),
+    new User('Sheldon')];
 
-  home.start();
+  localStorage.users = JSON.stringify(users);
 
-  router.startRouting();
+  Home.start();
+
+  Router.startRouting();
 });

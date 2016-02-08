@@ -22,8 +22,9 @@ requirejs.config({
     router:         'app/router',
     parts:          'app/parts',
     controllers:    'app/controllers',
-    data: 'app/data',
-    views: 'app/views'
+    data:           'app/data',
+    models:         'app/models',
+    views:          'app/views'
   },
   shim: {
     bootstrap: {
