@@ -1,4 +1,4 @@
-define(function(){
+define(function() {
 
   var routes = [
     {hash: '#home',         controller: 'home'          },
