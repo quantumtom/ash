@@ -12,6 +12,6 @@ It took a few hours, but I was finally able to implement that formula using a [R
 
 ## Credits
 
-I configured Bootstrap to load widgets using markup taken from [Bootswatch](http://www.bootswatch.com).
+I configured Bootstrap to load widgets using CSS themes from [Bootswatch](http://www.bootswatch.com).
 
 I implemented an MVC pattern based on the tutorial created by [Jonathan Verrecchia](http://verekia.com/requirejs/build-simple-client-side-mvc-app-require-js/).
