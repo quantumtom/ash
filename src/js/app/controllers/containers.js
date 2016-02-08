@@ -1,7 +1,7 @@
-define(['views/dialogs'], function(dialogsView){
+define(['views/containers'], function(containersView){
 
   function start(){
-    dialogsView.render();
+    containersView.render();
   }
 
   return {
