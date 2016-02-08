@@ -1,3 +1,5 @@
-/**
- * Created by thomascornyn on 2/8/16.
- */
+define(function () {
+  return {
+    title: 'Base'
+  };
+});
