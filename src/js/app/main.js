@@ -1,7 +1,3 @@
-/**
- * Load all the Views.
- */
-
 require([
   'models/user',
   'controllers/home',
