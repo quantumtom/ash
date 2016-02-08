@@ -1,6 +1,7 @@
 define(function() {
 
   var routes = [
+    {hash: '#base',         controller: 'base'          },
     {hash: '#home',         controller: 'home'          },
     {hash: '#buttons',      controller: 'buttons'       },
     {hash: '#containers',   controller: 'containers'    },
