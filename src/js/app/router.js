@@ -18,14 +18,14 @@ define(function() {
   var currentHash = '';
 
   function loadController(controllerName){
-    require(['controllers/' + controllerName], function(controller){
+    require(['controllers/' + controllerName], function(controller) {
       controller.start();
     });
   }
 
   function hashCheck(){
     if (window.location.hash != currentHash){
-      for (var i = 0, currentRoute; currentRoute = routes[i++];){
+      for (var i = 0, currentRoute; currentRoute = routes[i++];) {
         if (window.location.hash == currentRoute.hash) {
           loadController(currentRoute.controller);
         }
