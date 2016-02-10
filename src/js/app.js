@@ -12,6 +12,7 @@ requirejs.config({
     // Also, the path should NOT include
     // the '.js' file extension.
     bootstrap:      'lib/bootstrap',
+    twbs:           'lib/twbs',
     jquery:         'lib/jquery',
     Handlebars:     'lib/handlebars',
     text:           'lib/text',
@@ -26,6 +27,9 @@ requirejs.config({
   shim: {
     bootstrap: {
       deps: ['jquery']
+    },
+    twbs: {
+      deps: ['bootstrap']
     },
     Handlebars: {
       deps: ['bootstrap'],
