@@ -4,7 +4,7 @@
   "description": "Movie site demonstrator",
   "main": "src/js/app.js",
   "scripts": {
-    "test": "grunt test",
+    "test": "node test.js",
     "start": "node start.js"
   },
   "repository": {
