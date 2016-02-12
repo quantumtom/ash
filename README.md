@@ -10,35 +10,35 @@ It took a few hours, but I was finally able to implement that formula using a [R
 
 ## Dependencies
 
-### [RequireJS] ![RequireJS](src/img/vendors/requirejs/logo-01.png)
-
+![RequireJS](src/img/vendors/requirejs/logo-01.png)
+### RequireJS
 [RequireJS](http://www.requirejs.org) is my loader of choice. Dependency management -- say no more, right? 
 Enforces code modularity in a file-based tree hierarchy.
 v. [2.1.8is](http://jrburke.com/2013/07/08/requirejs-2.1.8-released/) included in this project's JavaScript library.
 
-### [jQuery] ![jQuery](src/img/vendors/jquery/logo-01.png)
-
+![jQuery](src/img/vendors/jquery/logo-01.png)
+### jQuery
 [jQuery](http://www.jquery.org) is the modern foundation of an extensive family of plug-ins, libraries, and extensions. It's a hard depdendency for Bootstrap. Loading it with RequireJS can be a bit tricky.
 
-### Twitter [Bootstrap] ![Bootstrap](src/img/vendors/bootstrap/logo-01.png)
+![Bootstrap](src/img/vendors/bootstrap/logo-01.png)
+### Bootstrap
 
 Twitter [Bootstrap](http://getbootstrap.com) is a fantastic UI library that integrates nicely with jQuery.
 
-### [Handlebars] ![Handlebars](src/img/vendors/handlebars/logo-01.png)
+![Handlebars](src/img/vendors/handlebars/logo-01.png)
+### Handlebars
 
 Based on the Mustache standard, [Handlebars](http://handlebarsjs.com/) is the modern JavaScript template system of choice. Works well in both client and server capacities.
 
 ## Extras
 
-### [Grunt] ![Grunt](src/img/vendors/grunt/logo-01.png)
-
+![Grunt](src/img/vendors/grunt/logo-01.png)
+### Grunt
 The [Grunt](http://www.gruntjs.org) task runner is an indespensible tool for test and building from source files.
 
-### [JSHint] ![JSHint](src/img/vendors/jshint/logo-01.jpg)
-
-[JSHint](http://jshint.com/)
-
-We're testing out an older configuration for JSHint. See the .jshintrc for more info.
+![JSHint](src/img/vendors/jshint/logo-01.jpg)
+### JSHint
+We're testing out an older configuration for [JSHint](http://jshint.com/). See the .jshintrc for more info.
 
 ## Credits
 
