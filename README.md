@@ -12,7 +12,7 @@ It took a few hours, but I was finally able to implement that formula using a [R
 
 ## Setup
 
-### Pre-Requisites
+### Prerequisites
 
 #### NodeJS and Git
 You need good installs of Git and NodeJS (w/ npm). Both programs should work well from the command-line and you should know what you're doing.
