@@ -2,7 +2,7 @@
 
 A demonstration of how to render Bootstrap components onto Handlebars templates using the RequireJS loader.
 
-![Ash](src/img/raindbow-dash/profile.png)
+![Ash](src/img/rainbow-dash/profile.png)
 
 ## Description
 
