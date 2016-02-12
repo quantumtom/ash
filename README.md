@@ -10,38 +10,33 @@ It took a few hours, but I was finally able to implement that formula using a [R
 
 ## Setup
 
-### Prerequisites
-1. Git
-2. NodeJS (w/ npm)
-3. Grunt (for extras)
-
 ### Preparation
 
-1. Clone this project into a new directory.
+Clone this project into a new directory.
 ```
 mkdir rd
 cd rd
 git clone https://github.com/quantumtom/rainbow-dash
 ```
 
-1. Update npm
-```javascript
+Update npm 
+```javascript 
 npm update -g npm
 ```
 
 ### Installation
 
-1. Run the package installer.
+Run the package installer.
 ```javascript
 npm install
 ```
 
-### Use
-1. Run the ExpressJS server.
+## Use
+Run the ExpressJS server.
 ```javascript
 node server.js
 ```
-2. Visit the site at http://localhost:5000/index.html
+Visit the site at http://localhost:5000/index.html
 
 ## Dependencies
 
