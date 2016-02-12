@@ -23,6 +23,7 @@
     "define":               true,
     "requirejs":            true,
     "require":              true,
-    "module":               true
+    "module":               true,
+    "process":              true
   }
 }
