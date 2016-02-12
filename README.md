@@ -4,6 +4,8 @@ Serving Bootstrap through Handlebars with Require (via ExpressJS)
 
 A minimal stack that renders a "living template" of Bootstrap GUI widgets (components) using the HandlebarsJS template system. All thanks to RequireJS.
 
+[![Build Status](https://semaphoreci.com/api/v1/awesomenesstv/rainbow-dash/branches/master/badge.svg)](https://semaphoreci.com/awesomenesstv/rainbow-dash)
+
 ## Description
 
 I wanted to find a way to load Bootstrap templates using Handlebars, ideally doing so with RequireJS. These solutions all seemed to incorporate Backbone or some other off-the-shelf MVC/P framework. I wanted to do all that, but without using a third-party MVC framework.
