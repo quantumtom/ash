@@ -16,7 +16,7 @@ I implemented an MVC pattern based on the tutorial created by [Jonathan Verrecch
 
 ![Ash](src/img/rainbow-dash/profile.png)
 
-_Rainbow Dash Cutie Mark_ by ![ErisGrim](http://erisgrim.deviantart.com/) on ![Deviant](http://www.deviantart.com/morelikethis/312568678)
+_Rainbow Dash Cutie Mark_ by [ErisGrim](http://erisgrim.deviantart.com/) on [Deviant](http://www.deviantart.com/morelikethis/312568678)
 
 ## Recent Updates
 
