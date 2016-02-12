@@ -9,11 +9,19 @@ I wanted to find a way to load Bootstrap templates using Handlebars, ideally doi
 It took a few hours, but I was finally able to implement that formula using a [RequireJS Handlebars plugin](https://github.com/jfparadis/requirejs-handlebars) authored by [Jean-Francois Paradis](http://www.jeanfrancoisparadis.com/).
 
 ## Dependencies
-![Bootstrap]()
-[Bootstrap](http://getbootstrap.com)
+![RequireJS](src/img/requirejs/logo-01.png)
+[RequireJS](http://www.requirejs.org) is my loader of choice. Dependency management -- say no more, right? 
+Enforces code modularity in a file-based tree hierarchy.
+v. [2.1.8is](http://jrburke.com/2013/07/08/requirejs-2.1.8-released/) included in this project's JavaScript library.
 
-![RequireJS](http://verekia.com/_templates/articles/requirejs/img/require-js-logo.png)
-[RequireJS](http://www.requirejs.org) v. [2.1.8is](http://jrburke.com/2013/07/08/requirejs-2.1.8-released/) included in this project's JavaScript library.
+![jQuery](src/img/jquery/logo-01.png)
+[jQuery](http://www.jquery.org) is the modern foundation of an extensive family of plug-ins, libraries, and extensions. It's a hard depdendency for Bootstrap. Loading it with RequireJS can be a bit tricky.
+
+![Bootstrap](src/img/bootstrap/logo-01.png)
+Twitter [Bootstrap](http://getbootstrap.com) is a fantastic UI library that integrates nicely with jQuery.
+
+![Handlebars](src/img/handlebars/logo-01.png)
+Based on the Mustache standard, [Handlebars](http://handlebarsjs.com/) is the modern JavaScript template system of choice. Works well in both client and server capacities.
 
 ## Credits
 
@@ -21,7 +29,7 @@ I configured Bootstrap to load widgets using CSS themes from [Bootswatch](http:/
 
 I implemented an MVC pattern based on the tutorial created by [Jonathan Verrecchia](http://verekia.com/requirejs/build-simple-client-side-mvc-app-require-js/).
 
-![Ash](src/img/rainbow-dash/profile.png)
+![Rainbow Dash](src/img/rainbow-dash/profile.png)
 
 _Rainbow Dash Cutie Mark_ by [ErisGrim](http://erisgrim.deviantart.com/) on [Deviant](http://www.deviantart.com/morelikethis/312568678)
 
