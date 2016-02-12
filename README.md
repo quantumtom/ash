@@ -8,6 +8,10 @@ I wanted to find a way to load Bootstrap templates using Handlebars, ideally doi
 
 It took a few hours, but I was finally able to implement that formula using a [RequireJS Handlebars plugin](https://github.com/jfparadis/requirejs-handlebars) authored by [Jean-Francois Paradis](http://www.jeanfrancoisparadis.com/).
 
+## Dependencies
+![RequireJS](http://verekia.com/_templates/articles/requirejs/img/require-js-logo.png)
+[RequireJS](http://www.requirejs.org) v. [2.1.8is](http://jrburke.com/2013/07/08/requirejs-2.1.8-released/) included in this project's JavaScript library.
+
 ## Credits
 
 I configured Bootstrap to load widgets using CSS themes from [Bootswatch](http://www.bootswatch.com).
