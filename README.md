@@ -45,7 +45,7 @@ or just
 ```javascript
 npm start
 ```
-Visit the site at http://localhost:5000/index.html
+Then you can visit the site at http://localhost:5000/index.html
 
 ## Dependencies
 
