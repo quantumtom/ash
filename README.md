@@ -23,6 +23,8 @@ Twitter [Bootstrap](http://getbootstrap.com) is a fantastic UI library that inte
 ![Handlebars](src/img/handlebars/logo-01.png)
 Based on the Mustache standard, [Handlebars](http://handlebarsjs.com/) is the modern JavaScript template system of choice. Works well in both client and server capacities.
 
+## Extras
+
 ![Grunt](src/img/grunt/logo-01.png)
 The [Grunt](http://www.gruntjs.org) task runner is an indespensible tool for test and building from source files.
 
