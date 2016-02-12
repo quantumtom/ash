@@ -10,12 +10,9 @@ I wanted to find a way to load Bootstrap templates using Handlebars, ideally doi
 
 It took a few hours, but I was finally able to implement that formula using a [RequireJS Handlebars plugin](https://github.com/jfparadis/requirejs-handlebars) authored by [Jean-Francois Paradis](http://www.jeanfrancoisparadis.com/).
 
-## Setup
-
 ### Prerequisites
 
-#### NodeJS and Git
-You need good installs of Git and NodeJS (w/ npm). Both programs should work well from the command-line and you should know what you're doing.
+This guide assumes you can use Git and NodeJS (w/ npm) from the command-line.
 
 ### Preparation
 
@@ -24,7 +21,7 @@ Clone this project.
 git clone https://github.com/quantumtom/rainbow-dash
 ```
 
-Move down into that directory
+Navigate to the new directory
 ```
 cd rainbow-dash
 ```
@@ -50,7 +47,8 @@ or just
 ```javascript
 npm start
 ```
-Then you can visit the site at http://localhost:5000/index.html
+Then you can visit your local instance at [http://localhost:5000](http://localhost:5000) 
+(or [http://127.0.0.1:5000](http://127.0.0.1:5000)).
 
 ## Dependencies
 
@@ -66,9 +64,12 @@ v. [2.1.8is](http://jrburke.com/2013/07/08/requirejs-2.1.8-released/) included i
 Twitter [Bootstrap](http://getbootstrap.com) is a fantastic UI library that integrates nicely with jQuery.
 
 ### ![Handlebars](src/img/vendors/handlebars/logo-01.png)
-Based on the Mustache standard, [Handlebars](http://handlebarsjs.com/) is the modern JavaScript template system of choice. Works well in both client and server capacities.
+Based on [Mustache](http://mustache.github.io/), [Handlebars](http://handlebarsjs.com/) is my HTML template system of choice. Works well in both client and server capacities.
 
-## Extras
+## Add-Ons
+
+A few extra toys are included just for fun. Grunt is currently configured to run JSHint tests against the 41 
+original JavaScript files in the "3MVC" (see below).
 
 ### ![Grunt](src/img/vendors/grunt/logo-01.png)
 The [Grunt](http://www.gruntjs.org) task runner is an indespensible tool for test and building from source files.
@@ -76,14 +77,19 @@ The [Grunt](http://www.gruntjs.org) task runner is an indespensible tool for tes
 ### ![JSHint](src/img/vendors/jshint/logo-01.jpg)
 We're testing out an older configuration for [JSHint](http://jshint.com/). See the .jshintrc for more info.
 
-### AMD MVC ("AM123")
-*AM123*: A _working title_ for the modular micro MVC ("3MVC") single-page app ("SPA").
+### "3MVC" (_working title_)
+The modular micro-MVC ("3MVC") is a custom-built single-page web app. It is based on the collection of views of the 
+app, abstract data models, and controllers to mediate the relationship between them.
+
+Each view has a Handlebars template and JavaScript modules for its controller, view, and data.
 
 ## Credits
 
-I configured Bootstrap to load widgets using CSS themes from [Bootswatch](http://www.bootswatch.com).
+I owe deep thanks to [Jonathan Verrecchia](http://verekia.com/requirejs/build-simple-client-side-mvc-app-require-js/). 
+Verecchia authored a tutorial on implementing a minimalist MVC using AMD through RequireJS. His guide should be 
+considered indispensible to anyone implementing a MVC pattern in JavasScript.
 
-I implemented an MVC pattern based on the tutorial created by [Jonathan Verrecchia](http://verekia.com/requirejs/build-simple-client-side-mvc-app-require-js/).
+I configured Bootstrap to load widgets using CSS themes from [Bootswatch](http://www.bootswatch.com).
 
 ![Rainbow Dash](src/img/rainbow-dash/logo-01.png)
 
