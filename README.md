@@ -17,6 +17,10 @@ It took a few hours, but I was finally able to implement that formula using a [R
 Clone this project.
 ```
 git clone https://github.com/quantumtom/rainbow-dash
+```
+
+Move down in to that directory
+```
 cd rainbow-dash
 ```
 
