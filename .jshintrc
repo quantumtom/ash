@@ -12,7 +12,7 @@
   "unused":        true,
   "multistr":      true,
   "maxcomplexity": 9,
-  "maxdepth":      2,
+  "maxdepth":      3,
   "sub":           true,
   "newcap":        true,
   "maxlen":        120,

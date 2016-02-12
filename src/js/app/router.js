@@ -17,16 +17,16 @@ define(function() {
   var defaultRoute = '#home';
   var currentHash = '';
 
-  function loadController(controllerName){
+  function loadController(controllerName) {
     require(['controllers/' + controllerName], function(controller) {
       controller.start();
     });
   }
 
   function hashCheck(){
-    if (window.location.hash != currentHash){
+    if (window.location.hash !== currentHash) {
       for (var i = 0, currentRoute; currentRoute = routes[i++];) {
-        if (window.location.hash == currentRoute.hash) {
+        if (window.location.hash === currentRoute.hash) {
           loadController(currentRoute.controller);
         }
       }
