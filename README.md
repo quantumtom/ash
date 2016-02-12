@@ -1,3 +1,4 @@
+![Rainbow Dash](src/img/rainbow-dash/profile-01.png)
 # Rainbow Dash
 Serving Bootstrap through Handlebars with Require (via ExpressJS)
 
@@ -72,7 +73,7 @@ I configured Bootstrap to load widgets using CSS themes from [Bootswatch](http:/
 
 I implemented an MVC pattern based on the tutorial created by [Jonathan Verrecchia](http://verekia.com/requirejs/build-simple-client-side-mvc-app-require-js/).
 
-![Rainbow Dash](src/img/rainbow-dash/profile.png)
+![Rainbow Dash](src/img/rainbow-dash/logo-01.png)
 
 _Rainbow Dash Cutie Mark_ by [ErisGrim](http://erisgrim.deviantart.com/) on [Deviant](http://www.deviantart.com/morelikethis/312568678)
 
