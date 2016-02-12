@@ -22,6 +22,7 @@ module.exports = function (grunt) {
             'router': 'app/router'
           }
         }
+      }
     },
     cssmin: {
       dist  : [{
@@ -30,10 +31,10 @@ module.exports = function (grunt) {
       }]
     },
     jshint: {
-      allFiles: [
-
-      ]
-      },
+      all: [
+        'Gruntfile.js',
+        'src/js/*.js'
+      ],
       options: {
         jshintrc: '.jshintrc'
       }
