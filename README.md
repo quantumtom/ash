@@ -8,6 +8,41 @@ I wanted to find a way to load Bootstrap templates using Handlebars, ideally doi
 
 It took a few hours, but I was finally able to implement that formula using a [RequireJS Handlebars plugin](https://github.com/jfparadis/requirejs-handlebars) authored by [Jean-Francois Paradis](http://www.jeanfrancoisparadis.com/).
 
+## Setup
+
+### Prerequisites
+1. Git
+2. NodeJS (w/ npm)
+3. Grunt (for extras)
+
+### Preparation
+
+1. Clone this project into a new directory.
+```
+mkdir rd
+cd rd
+git clone https://github.com/quantumtom/rainbow-dash
+```
+
+1. Update npm
+```javascript
+npm update -g npm
+```
+
+### Installation
+
+1. Run the package installer.
+```javascript
+npm install
+```
+
+### Use
+1. Run the ExpressJS server.
+```javascript
+node server.js
+```
+2. Visit the site at http://localhost:5000/index.html
+
 ## Dependencies
 
 ### ![RequireJS](src/img/vendors/requirejs/logo-01.png)
