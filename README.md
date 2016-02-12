@@ -1,6 +1,6 @@
 ![Rainbow Dash](src/img/rainbow-dash/profile-01.png)
 # Rainbow Dash
-Serving Bootstrap through Handlebars with Require (via ExpressJS)
+A modular micro-MVC single-page web app serving Bootstrap components through Handlebars with Require (via ExpressJS).
 
 A minimal stack that renders a "living template" of Bootstrap GUI widgets (components) using the HandlebarsJS template system. All thanks to RequireJS.
 
