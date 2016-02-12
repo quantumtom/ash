@@ -14,10 +14,8 @@ It took a few hours, but I was finally able to implement that formula using a [R
 
 ### Preparation
 
-Clone this project into a new directory.
+Clone this project.
 ```
-mkdir rd
-cd rd
 git clone https://github.com/quantumtom/rainbow-dash
 ```
 
