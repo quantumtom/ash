@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
 
-  grunt.initConfig({
+  var conf = {
     pkg: grunt.file.readJSON('package.json'),
     requirejs: {
       dist: {
@@ -44,7 +44,9 @@ module.exports = function (grunt) {
       files: ['<%= jshint.files %>'],
       tasks: ['jshint']
     }
-  });
+  };
+
+  grunt.initConfig(conf);
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
