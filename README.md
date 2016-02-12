@@ -19,6 +19,11 @@ Clone this project.
 git clone https://github.com/quantumtom/rainbow-dash
 ```
 
+Move down in to that directory
+```
+cd rainbow-dash
+```
+
 Update npm 
 ```javascript 
 npm update -g npm
