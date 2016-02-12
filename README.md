@@ -39,7 +39,7 @@ npm install
 ## Use
 Run the ExpressJS server.
 ```javascript
-node server.js
+node serve.js
 ```
 Visit the site at http://localhost:5000/index.html
 
