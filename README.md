@@ -1,6 +1,7 @@
-![Rainbow Dash](src/img/rainbow-dash/profile-01.png)
 # Rainbow Dash
 A modular micro-MVC single-page web app serving Bootstrap components through Handlebars with Require (via ExpressJS).
+
+![Rainbow Dash](src/img/rainbow-dash/profile-01.png)
 
 A minimal stack that renders a "living template" of Bootstrap GUI widgets (components) using the HandlebarsJS template system. All thanks to RequireJS.
 
@@ -11,6 +12,8 @@ A minimal stack that renders a "living template" of Bootstrap GUI widgets (compo
 I wanted to find a way to load Bootstrap templates using Handlebars, ideally doing so with RequireJS. These solutions all seemed to incorporate Backbone or some other off-the-shelf MVC/P framework. I wanted to do all that, but without using a third-party MVC framework.
 
 It took a few hours, but I was finally able to implement that formula using a [RequireJS Handlebars plugin](https://github.com/jfparadis/requirejs-handlebars) authored by [Jean-Francois Paradis](http://www.jeanfrancoisparadis.com/).
+
+![Rainbow Dash](src/img/rainbow-dash/logo-01.png)
 
 ### Prerequisites
 
@@ -92,8 +95,6 @@ Verecchia authored a tutorial on implementing a minimalist MVC using AMD through
 considered indispensible to anyone implementing a MVC pattern in JavasScript.
 
 I configured Bootstrap to load widgets using CSS themes from [Bootswatch](http://www.bootswatch.com).
-
-![Rainbow Dash](src/img/rainbow-dash/logo-01.png)
 
 _Rainbow Dash Cutie Mark_ by [ErisGrim](http://erisgrim.deviantart.com/) on [Deviant](http://www.deviantart.com/morelikethis/312568678)
 
