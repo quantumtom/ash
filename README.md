@@ -1,4 +1,5 @@
-# Bootstrap through Handlebars via RequireJS
+# Rainbow Dash
+Serving Bootstrap through Handlebars with Require (via ExpressJS)
 
 A minimal stack that renders a "living template" of Bootstrap GUI widgets (components) using the HandlebarsJS template system. All thanks to RequireJS.
 
