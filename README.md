@@ -36,9 +36,10 @@ _Rainbow Dash Cutie Mark_ by [ErisGrim](http://erisgrim.deviantart.com/) on [Dev
 ## Recent Updates
 
 2016-02-16 - Rename project due to popular demand.
+
 2016-02-16 - Update dependencies and logos.
 
-
+2016-02-16 - Fix Grunt task for JSHint.
 
 
 
