@@ -28,6 +28,10 @@ Based on the Mustache standard, [Handlebars](http://handlebarsjs.com/) is the mo
 ![Grunt](src/img/grunt/logo-01.png)
 The [Grunt](http://www.gruntjs.org) task runner is an indespensible tool for test and building from source files.
 
+![JSHint](src/img/jshint/logo-01.jpg)
+[JSHint](http://jshint.com/)
+We're testing out an older configuration for JSHint. See the .jshintrc for more info.
+
 ## Credits
 
 I configured Bootstrap to load widgets using CSS themes from [Bootswatch](http://www.bootswatch.com).
