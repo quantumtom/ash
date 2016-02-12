@@ -3,6 +3,7 @@ define(function() {
   var routes = [
     {hash: '#base',         controller: 'base'          },
     {hash: '#home',         controller: 'home'          },
+    {hash: '#carousel',     controller: 'carousel'      },
     {hash: '#buttons',      controller: 'buttons'       },
     {hash: '#containers',   controller: 'containers'    },
     {hash: '#forms',        controller: 'forms'         },

@@ -1,3 +1,10 @@
-/**
- * Created by thomascornyn on 2/12/16.
- */
+define(['views/carousel'], function(carouselView){
+
+  function start(){
+    carouselView.render();
+  }
+
+  return {
+    start:start
+  };
+});
