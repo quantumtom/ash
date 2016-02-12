@@ -1,10 +1,10 @@
 {
-  "name": "ash",
+  "name": "rainbow-dash",
   "version": "1.0.0",
-  "description": "Movie site demonstrator",
+  "description": "A modular micro-MVC single-page web app serving Bootstrap components through Handlebars with Require (via ExpressJS).",
   "main": "src/js/app.js",
   "scripts": {
-    "test": "node test.js",
+    "test": "grunt test",
     "start": "node serve.js"
   },
   "repository": {
