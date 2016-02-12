@@ -19,7 +19,7 @@ Clone this project.
 git clone https://github.com/quantumtom/rainbow-dash
 ```
 
-Move down in to that directory
+Move down into that directory
 ```
 cd rainbow-dash
 ```
