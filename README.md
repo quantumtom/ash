@@ -16,3 +16,9 @@ I implemented an MVC pattern based on the tutorial created by [Jonathan Verrecch
 
 ![Ash](src/img/rainbow-dash/profile.png)
 
+## Recent Updates
+
+2016-02-16 - Rename project due to popular demand.
+
+
+
