@@ -1,19 +1,10 @@
-# Rainbow Dash
-A modular micro-MVC single-page web app serving Bootstrap components through Handlebars with Require (via ExpressJS).
-
-![Rainbow Dash](src/img/rainbow-dash/profile-01.png)
-
-A minimal stack that renders a "living template" of Bootstrap GUI widgets (components) using the HandlebarsJS template system. All thanks to RequireJS.
-
-[![Build Status](https://semaphoreci.com/api/v1/awesomenesstv/rainbow-dash/branches/master/badge.svg)](https://semaphoreci.com/awesomenesstv/rainbow-dash)
+This is a modular micro-MVC single-page web app serving Bootstrap components through Handlebars with Require (via ExpressJS). A minimal stack that renders a "living template" of Bootstrap GUI widgets (components) using the HandlebarsJS template system. All thanks to RequireJS.
 
 ## Description
 
 I wanted to find a way to load Bootstrap templates using Handlebars, ideally doing so with RequireJS. These solutions all seemed to incorporate Backbone or some other off-the-shelf MVC/P framework. I wanted to do all that, but without using a third-party MVC framework.
 
 It took a few hours, but I was finally able to implement that formula using a [RequireJS Handlebars plugin](https://github.com/jfparadis/requirejs-handlebars) authored by [Jean-Francois Paradis](http://www.jeanfrancoisparadis.com/).
-
-![Rainbow Dash](src/img/rainbow-dash/logo-01.png)
 
 ### Prerequisites
 
@@ -109,3 +100,5 @@ _Rainbow Dash Cutie Mark_ by [ErisGrim](http://erisgrim.deviantart.com/) on [Dev
 2016-02-12 - Update documentation.
 
 2016-02-17 - Fix alignment in Grunt task 
+
+2016-02-18 - Change README.md
