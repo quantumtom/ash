@@ -10,16 +10,16 @@ grunt.initConfig({
         optimize: 'none',
         out: 'dist/js/app.js',
         paths: {
-          'templates': 'app/parts',
-          'jquery': 'lib/jquery',
-          'bootstrap': 'lib/bootstrap',
-          'handlebars': 'lib/handlebars',
-          'controllers': 'app/controllers',
-          'data': 'app/data',
-          'models': 'app/models',
-          'parts': 'app/parts',
-          'views': 'app/views',
-          'router': 'app/router'
+          'templates':    'app/parts',
+          'jquery':       'lib/jquery',
+          'bootstrap':    'lib/bootstrap',
+          'handlebars':   'lib/handlebars',
+          'controllers':  'app/controllers',
+          'data':         'app/data',
+          'models':       'app/models',
+          'parts':        'app/parts',
+          'views':        'app/views',
+          'router':       'app/router'
         }
       }
     }

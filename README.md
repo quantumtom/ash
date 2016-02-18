@@ -107,3 +107,5 @@ _Rainbow Dash Cutie Mark_ by [ErisGrim](http://erisgrim.deviantart.com/) on [Dev
 2016-02-12 - Fix Grunt task for JSHint.
 
 2016-02-12 - Update documentation.
+
+2016-02-17 - Fix alignment in Grunt task 
