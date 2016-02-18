@@ -14,12 +14,12 @@ This guide assumes you can use Git and NodeJS (w/ npm) from the command-line.
 
 Clone this project.
 ```
-git clone https://github.com/quantumtom/rainbow-dash
+git clone https://github.com/quantumtom/ash
 ```
 
 Navigate to the new directory
 ```
-cd rainbow-dash
+cd ash
 ```
 
 Update npm 
