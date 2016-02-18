@@ -18,12 +18,16 @@
 
 
 body {
-   /*background: url(../img/covers/1936.jpeg) no-repeat center center fixed;*/
+   /*background: url(../img/covers/wittington-venice-1939.jpeg) no-repeat center center fixed;*/
    /*background-size: cover;*/
-
 }
 
 
 .img-margin {
    margin: auto;
+}
+
+.footer .container .copyright p {
+   padding-top: 2%;
+   text-align: center;
 }
