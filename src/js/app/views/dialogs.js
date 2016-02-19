@@ -9,6 +9,9 @@ define(function() {
           var appDiv = document.getElementById('page-body');
 
           appDiv.innerHTML = dialogsPart(dialogsData);
+
+          $('[data-toggle="tooltip"]').tooltip();
+          $('[data-toggle="popover"]').popover();
         });
   }
 

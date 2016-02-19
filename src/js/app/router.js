@@ -3,17 +3,18 @@ define(function() {
   var routes = [
     {hash: '#base',         controller: 'base'          },
     {hash: '#home',         controller: 'home'          },
-    {hash: '#carousel',     controller: 'carousel'      },
     {hash: '#buttons',      controller: 'buttons'       },
+    {hash: '#accordion',    controller: 'accordion'     },
+    {hash: '#carousel',     controller: 'carousel'      },
     {hash: '#containers',   controller: 'containers'    },
+    {hash: '#dialogs',      controller: 'dialogs'       },
     {hash: '#forms',        controller: 'forms'         },
     {hash: '#indicators',   controller: 'indicators'    },
     {hash: '#navbar',       controller: 'navbar'        },
-    {hash: '#tables',       controller: 'tables'        },
-    {hash: '#typography',   controller: 'typography'    },
     {hash: '#navs',         controller: 'navs'          },
     {hash: '#progressbars', controller: 'progressbars'  },
-    {hash: '#dialogs',      controller: 'dialogs'       }
+    {hash: '#tables',       controller: 'tables'        },
+    {hash: '#typography',   controller: 'typography'    }
   ];
   var defaultRoute = '#home';
   var currentHash = '';
