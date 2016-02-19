@@ -1,6 +1,6 @@
 define(['views/home'], function(homeView){
 
-  function start(){
+  function start() {
     homeView.render();
   }
 

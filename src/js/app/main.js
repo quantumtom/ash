@@ -10,8 +10,6 @@ require([
 
   localStorage.users = JSON.stringify(users);
 
-
-
   Home.start();
 
   Router.startRouting();

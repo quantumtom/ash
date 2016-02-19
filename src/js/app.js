@@ -46,6 +46,7 @@ requirejs.config({
 
 // Start loading the main app file. Put all of
 // your application logic in there.
-require(['app/main'], function () {
+require(['app/main','jquery'], function (main, $) {
   // You can put stuff in here too.
+  $('#home-spinner').toggleClass('active');
 });
