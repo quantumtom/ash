@@ -1,14 +1,14 @@
 define(function() {
 
   var routes = [
-    {hash: '#base',         controller: 'base'          },
-    {hash: '#home',         controller: 'home'          },
-    {hash: '#buttons',      controller: 'buttons'       },
     {hash: '#accordion',    controller: 'accordion'     },
+    {hash: '#base',         controller: 'base'          },
+    {hash: '#buttons',      controller: 'buttons'       },
     {hash: '#carousel',     controller: 'carousel'      },
     {hash: '#containers',   controller: 'containers'    },
     {hash: '#dialogs',      controller: 'dialogs'       },
     {hash: '#forms',        controller: 'forms'         },
+    {hash: '#home',         controller: 'home'          },
     {hash: '#indicators',   controller: 'indicators'    },
     {hash: '#navbar',       controller: 'navbar'        },
     {hash: '#navs',         controller: 'navs'          },
@@ -25,7 +25,7 @@ define(function() {
     });
   }
 
-  function hashCheck(){
+  function hashCheck() {
     if (window.location.hash !== currentHash) {
       for (var i = 0, currentRoute; currentRoute = routes[i++];) {
         if (window.location.hash === currentRoute.hash) {
@@ -36,7 +36,7 @@ define(function() {
     }
   }
 
-  function startRouting(){
+  function startRouting() {
     window.location.hash = window.location.hash || defaultRoute;
     setInterval(hashCheck, 100);
   }
