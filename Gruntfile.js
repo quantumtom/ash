@@ -9,7 +9,6 @@ module.exports = function (grunt) {
         cwd: 'src/',
         src: [
           'js/**',
-          'css/**',
           'img/**',
           'fonts/**',
           '*.txt',
@@ -43,6 +42,9 @@ module.exports = function (grunt) {
             hbar:           'lib/hbars'
           },
           shim: {
+            router: {
+              deps: ['jquery']
+            },
             bootstrap: {
               deps: ['jquery']
             },
@@ -138,8 +140,8 @@ module.exports = function (grunt) {
    */
   grunt.registerTask('default', 'Default grunt task.', ['build']);
 
-  grunt.registerTask('test', ['jshint','bootlint']);
+    grunt.registerTask('test', ['jshint','bootlint']);
 
-  grunt.registerTask('build', ['clean','copy','cssmin','htmlmin']);
+  grunt.registerTask('build', ['clean','copy','cssmin','htmlmin','requirejs']);
 
 };
