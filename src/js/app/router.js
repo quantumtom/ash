@@ -20,6 +20,8 @@ define(function() {
   var currentHash = '';
 
   function loadController(controllerName) {
+    $('#home-spinner').toggleClass('active');
+
     require(['controllers/' + controllerName], function(controller) {
       controller.start();
     });
