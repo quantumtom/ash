@@ -25,6 +25,9 @@ requirejs.config({
     hbar:           'lib/hbars'
   },
   shim: {
+    router: {
+      deps: ['jquery']
+    },
     bootstrap: {
       deps: ['jquery']
     },

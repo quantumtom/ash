@@ -18,10 +18,7 @@
   },
   "homepage": "https://github.com/quantumtom/ash#readme",
   "dependencies": {
-    "express": "^4.13.4",
-    "handlebars": "^4.0.5",
-    "http": "0.0.0",
-    "npm-bump": "0.0.15"
+    "express": "^4.13.4"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

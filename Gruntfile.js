@@ -8,10 +8,10 @@ module.exports = function (grunt) {
         expand: true,
         cwd: 'src/',
         src: [
-          'js/require',
-          'css/**/*',
-          'img/**/*',
-          'fonts/**/*',
+          'js/**',
+          'css/**',
+          'img/**',
+          'fonts/**',
           '*.txt',
           '*.html',
           '*.ico',
@@ -83,8 +83,8 @@ module.exports = function (grunt) {
       }
     },
     watch: {
-      files: ['<%= jshint.files %>'],
-      tasks: ['jshint']
+      files: ['src/**'],
+      tasks: ['build']
     },
     htmlmin: {
       dist: {                                      // Target
@@ -137,8 +137,9 @@ module.exports = function (grunt) {
    *
    */
   grunt.registerTask('default', 'Default grunt task.', ['build']);
-  grunt.registerTask('build', ['clean','copy','cssmin','htmlmin']);
-  grunt.registerTask('dev', ['clean','copy']);
+
   grunt.registerTask('test', ['jshint','bootlint']);
+
+  grunt.registerTask('build', ['clean','copy','cssmin','htmlmin']);
 
 };
