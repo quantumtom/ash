@@ -22,7 +22,8 @@ requirejs.config({
     jquery:         'lib/jquery',
     Handlebars:     'lib/handlebars',
     text:           'lib/text',
-    hbar:           'lib/hbars'
+    hbar:           'lib/hbars',
+    bootswatchlet:  'lib/bootswatchlet'
   },
   shim: {
     bootstrap: {
@@ -37,6 +38,9 @@ requirejs.config({
     },
     'jquery': {
       exports: '$'
+    },
+    bootswatchlet: {
+      deps: ['twbs']
     }
   },
   hbars: {
