@@ -25,7 +25,7 @@ module.exports = function (grunt) {
           baseUrl: 'src/js',
           name: 'app',
           mainConfigFile: 'src/js/app.js',
-          optimize: 'none',
+          optimize: 'uglify',
           out: 'dist/js/app.js',
           paths: {
             router:         'app/router',
@@ -101,13 +101,13 @@ module.exports = function (grunt) {
     },
     cache_control: {
       dist: {
-        source: "src/index.html",
+        source: 'src/index.html',
         options: {
-          version: "2.0",
+          version: '2.0',
           links: true,
           scripts: true,
           replace: false,
-          outputDest: "dist/index.html"
+          outputDest: 'src/index.html'
         }
       }
     }
@@ -140,8 +140,8 @@ module.exports = function (grunt) {
    */
   grunt.registerTask('default', 'Default grunt task.', ['build']);
 
-    grunt.registerTask('test', ['jshint','bootlint']);
+  grunt.registerTask('build', ['clean','copy','cache_control','cssmin','htmlmin','requirejs']);
 
-  grunt.registerTask('build', ['clean','copy','cssmin','htmlmin','requirejs']);
+  grunt.registerTask('test', ['jshint','bootlint']);
 
 };
