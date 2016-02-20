@@ -26,6 +26,7 @@ module.exports = function (grunt) {
           name: 'app',
           mainConfigFile: 'src/js/app.js',
           optimize: 'uglify',
+          locale: "en-us",
           out: 'dist/js/app.js',
           paths: {
             router:         'app/router',
@@ -57,9 +58,7 @@ module.exports = function (grunt) {
             },
             'jquery': {
               exports: '$'
-            },
-            locale: "en-us",
-            optimize: 'uglify'
+            }
           }
         }
       }
@@ -95,7 +94,7 @@ module.exports = function (grunt) {
           collapseWhitespace: true
         },
         files: {                                   // Dictionary of files
-          'dist/index.html': 'src/index.html'
+          'dist/index.html': 'dist/index.html'
         }
       }
     },
@@ -103,11 +102,11 @@ module.exports = function (grunt) {
       dist: {
         source: 'src/index.html',
         options: {
-          version: '2.0',
+          version: '2.0.1',
           links: true,
           scripts: true,
           replace: false,
-          outputDest: 'src/index.html'
+          outputDest: 'dist/index.html'
         }
       }
     }
