@@ -1,6 +1,6 @@
 define(function () {
   return {
-    title: 'Accordion Class',
+    title: 'Accordion',
     body: 'The accordion class is an abstract template for creating new modules.'
   };
 });

@@ -31,9 +31,6 @@ requirejs.config({
     bootstrap: {
       deps: ['jquery']
     },
-    twbs: {
-      deps: ['bootstrap']
-    },
     Handlebars: {
       deps: ['bootstrap'],
       exports: 'Handlebars'
@@ -50,5 +47,5 @@ requirejs.config({
 // Start loading the main app file. Put all of
 // your application logic in there.
 require(['app/main'], function () {
-  // You can put stuff in here too.
+  // Load js/app/main.js
 });

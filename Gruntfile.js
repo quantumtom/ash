@@ -19,50 +19,6 @@ module.exports = function (grunt) {
         dest: 'dist'
       }
     },
-    requirejs: {
-      dist: {
-        options: {
-          baseUrl: 'src/js',
-          name: 'app',
-          mainConfigFile: 'src/js/app.js',
-          optimize: 'uglify',
-          locale: "en-us",
-          out: 'dist/js/app.js',
-          paths: {
-            router:         'app/router',
-            parts:          'app/parts',
-            controllers:    'app/controllers',
-            data:           'app/data',
-            models:         'app/models',
-            views:          'app/views',
-            bootstrap:      'lib/bootstrap',
-            twbs:           'lib/twbs',
-            jquery:         'lib/jquery',
-            Handlebars:     'lib/handlebars',
-            text:           'lib/text',
-            hbar:           'lib/hbars'
-          },
-          shim: {
-            router: {
-              deps: ['jquery']
-            },
-            bootstrap: {
-              deps: ['jquery']
-            },
-            twbs: {
-              deps: ['bootstrap']
-            },
-            Handlebars: {
-              deps: ['bootstrap'],
-              exports: 'Handlebars'
-            },
-            'jquery': {
-              exports: '$'
-            }
-          }
-        }
-      }
-    },
     cssmin: {
       dist: {
         files: [{
@@ -109,6 +65,16 @@ module.exports = function (grunt) {
           outputDest: 'dist/index.html'
         }
       }
+    },
+    uglify: {
+      options: {
+        mangle: false
+      },
+      dist: {
+        files: {
+          'dist/js/app.js': ['src/js/**/*.js']
+        }
+      }
     }
   });
 
@@ -118,7 +84,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-requirejs');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-cache-control');
@@ -139,7 +104,7 @@ module.exports = function (grunt) {
    */
   grunt.registerTask('default', 'Default grunt task.', ['build']);
 
-  grunt.registerTask('build', ['clean','copy','cache_control','cssmin','htmlmin','requirejs']);
+  grunt.registerTask('build', ['clean','copy','cache_control','cssmin','htmlmin']);
 
   grunt.registerTask('test', ['jshint','bootlint']);
 
