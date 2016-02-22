@@ -34,6 +34,11 @@ Run the package installer.
 npm install
 ```
 
+## Build
+```javascript
+grunt
+```
+
 ## Use
 Run the ExpressJS server.
 ```javascript
