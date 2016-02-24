@@ -92,8 +92,6 @@ considered indispensible to anyone implementing a MVC pattern in JavasScript.
 
 I configured Bootstrap to load widgets using CSS themes from [Bootswatch](http://www.bootswatch.com).
 
-_Rainbow Dash Cutie Mark_ by [ErisGrim](http://erisgrim.deviantart.com/) on [Deviant](http://www.deviantart.com/morelikethis/312568678)
-
 ## Recent Updates
 
 2016-02-12 - Rename project due to popular demand.
