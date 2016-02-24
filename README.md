@@ -76,7 +76,7 @@ original JavaScript files in the "3MVC" (see below).
 The [Grunt](http://www.gruntjs.org) task runner is an indespensible tool for test and building from source files.
 
 ### ![JSHint](src/img/vendors/jshint/logo-01.jpg)
-We're testing out an older configuration for [JSHint](http://jshint.com/). See the .jshintrc for more info.
+Adjusting the configuration for [JSHint](http://jshint.com/). See the .jshintrc for more info.
 
 ### "3MVC" (_working title_)
 The modular micro-MVC ("3MVC") is a custom-built single-page web app. It is based on the collection of views of the 
