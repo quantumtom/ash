@@ -2,7 +2,17 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    clean: ['dist'],
+    clean: {
+        build: {
+            files: {
+                src: [
+                  'dist/css',
+                  'dist/js'
+                ]
+            }
+        }
+
+    },
     copy: {
       main: {
         expand: true,
