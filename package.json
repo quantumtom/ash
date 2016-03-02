@@ -1,6 +1,10 @@
 {
   "name": "ash",
   "version": "1.0.1-pre",
+  "engines": {
+    "node": "5.5.0",
+    "npm": "3.7.2"
+  },
   "description": "A modular micro-MVC single-page web app serving Bootstrap components through Handlebars with Require (via ExpressJS).",
   "main": "src/js/app.js",
   "scripts": {
