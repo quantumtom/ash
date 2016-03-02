@@ -70,10 +70,12 @@ module.exports = function (grunt) {
       options: {
         mangle: false
       },
-      dist: {
-        files: {
-          'dist/js/app.js': ['src/js/**/*.js']
-        }
+      min: {
+        files: grunt.file.expandMapping(['src/js/**/*.js'], 'dist/', {
+          rename: function(destBase, destPath) {
+            return destBase+destPath.replace('src/js', 'js');
+          }
+        })
       }
     }
   });
@@ -104,7 +106,7 @@ module.exports = function (grunt) {
    */
   grunt.registerTask('default', 'Default grunt task.', ['build']);
 
-  grunt.registerTask('build', ['clean','copy','cache_control','cssmin','htmlmin']);
+  grunt.registerTask('build', ['clean','copy','cache_control','cssmin','htmlmin','uglify']);
 
   grunt.registerTask('test', ['jshint','bootlint']);
 
