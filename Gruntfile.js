@@ -18,7 +18,6 @@ module.exports = function (grunt) {
         expand: true,
         cwd: 'src/',
         src: [
-          'js/**',
           'img/**',
           'fonts/**',
           '*.txt',
@@ -31,12 +30,11 @@ module.exports = function (grunt) {
     },
     cssmin: {
       dist: {
-        files: [{
-          expand: true,
-          cwd: 'src/css',
-          src: ['*.css'],
-          dest: 'dist/css'
-        }]
+        files: grunt.file.expandMapping(['src/css/**/*.css'], 'dist/', {
+          rename: function(destBase, destPath) {
+            return destBase+destPath.replace('src/css', 'css');
+          }
+        })
       }
     },
     jshint: {
