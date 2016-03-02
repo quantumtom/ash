@@ -1,9 +1,9 @@
 {
   "name": "ash",
-  "version": "1.0.1-pre",
+  "version": "1.0.1",
   "engines": {
-    "node": "5.5.0",
-    "npm": "3.7.2"
+    "node": "5.7.0",
+    "npm": "3.8.0"
   },
   "description": "A modular micro-MVC single-page web app serving Bootstrap components through Handlebars with Require (via ExpressJS).",
   "main": "src/js/app.js",
@@ -22,8 +22,7 @@
   },
   "homepage": "https://github.com/quantumtom/ash#readme",
   "dependencies": {
-    "express": "^4.13.4",
-    "http": "0.0.0"
+    "express": "^4.13.4"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -35,10 +34,8 @@
     "grunt-contrib-cssmin": "^0.14.0",
     "grunt-contrib-htmlmin": "^0.6.0",
     "grunt-contrib-jshint": "^0.12.0",
-    "grunt-contrib-requirejs": "^0.4.4",
     "grunt-contrib-uglify": "^0.11.1",
     "grunt-contrib-watch": "^0.6.1",
-    "http": "0.0.0",
     "jshint-stylish": "^2.1.0"
   }
 }
