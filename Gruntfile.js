@@ -3,21 +3,21 @@ module.exports = function (grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     clean: {
-        build: {
-            files: {
-                src: [
-                  'dist/css',
-                  'dist/js'
-                ]
-            }
-        }
-
+      release: {
+        options: {
+          'force': true
+        },
+        src: [
+          'dist'
+        ]
+      }
     },
     copy: {
       main: {
         expand: true,
         cwd: 'src/',
         src: [
+          'js/**/*.hbar',
           'img/**',
           'fonts/**',
           '*.txt',
