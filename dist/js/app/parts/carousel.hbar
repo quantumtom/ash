@@ -21,25 +21,25 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="http://fpoimg.com/640x480?bg_color=85144B&text_color=FFFFFF&text=First Item" alt="First Item" class="img-responsive img-margin">
+            <img src="img/carousel/01.png" alt="First Item" class="img-responsive img-margin">
             <div class="carousel-caption">
               First Item Caption
             </div>
           </div>
           <div class="item">
-            <img src="http://fpoimg.com/640x480?bg_color=00eeee&text_color=000000&text=Second Item" alt="Second Item" class="img-responsive img-margin">
+            <img src="img/carousel/02.png" alt="Second Item" class="img-responsive img-margin">
             <div class="carousel-caption">
               Second Item Caption
             </div>
           </div>
           <div class="item">
-            <img src="http://fpoimg.com/640x480?bg_color=C90000&text_color=6E0101&text=Third Item" alt="Third Item" class="img-responsive img-margin">
+            <img src="img/carousel/03.png" alt="Third Item" class="img-responsive img-margin">
             <div class="carousel-caption">
               Third Item Caption
             </div>
           </div>
           <div class="item">
-            <img src="http://fpoimg.com/640x480?bg_color=BFC5FF&text_color=4A59FF&text=Fourth Item" alt="Fourth Item" class="img-responsive img-margin">
+            <img src="img/carousel/04.png" alt="Fourth Item" class="img-responsive img-margin">
             <div class="carousel-caption">
               Fourth Item Caption
             </div>
