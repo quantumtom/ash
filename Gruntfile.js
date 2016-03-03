@@ -47,6 +47,15 @@ module.exports = function (grunt) {
         jshintrc: '.jshintrc'
       }
     },
+    bootlint: {
+      options: {
+        stoponerror: false,
+        relaxerror: [
+          'W005'
+        ]
+      },
+      files: ['src/**/*.html']
+    },
     watch: {
       files: ['src/**'],
       tasks: ['build']
