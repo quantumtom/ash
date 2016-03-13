@@ -28,36 +28,6 @@ module.exports = function (grunt) {
         dest: 'dist'
       }
     },
-    cssmin: {
-      options: {
-        shorthandCompacting: false,
-        roundingPrecision: -1
-      },
-      dist: {
-        files: {
-          'dist/css/main.css': ['src/css/**/*.css']
-        }
-      }
-    },
-    jshint: {
-      all: [
-        'Gruntfile.js',
-        'src/js/app/**/*.js',
-        'src/js/app.js'
-      ],
-      options: {
-        jshintrc: '.jshintrc'
-      }
-    },
-    bootlint: {
-      options: {
-        stoponerror: false,
-        relaxerror: [
-          'W005'
-        ]
-      },
-      files: ['src/**/*.html']
-    },
     watch: {
       files: ['src/**'],
       tasks: ['build']
@@ -96,6 +66,47 @@ module.exports = function (grunt) {
           }
         })
       }
+    },
+    cssmin: {
+      options: {
+        shorthandCompacting: false,
+        roundingPrecision: -1
+      },
+      dist: {
+        files: {
+          'dist/css/main.css': ['src/css/**/*.css']
+        }
+      }
+    },
+    jshint: {
+      all: [
+        'Gruntfile.js',
+        'src/js/app/**/*.js',
+        'src/js/app.js'
+      ],
+      options: {
+        jshintrc: '.jshintrc'
+      }
+    },
+    bootlint: {
+      options: {
+        stoponerror: false,
+        relaxerror: [
+          'W005'
+        ]
+      },
+      files: ['src/**/*.html']
+    },
+    csslint: {
+      options: {
+        csslintrc: '.csslintrc'
+      },
+      lax: {
+        src: [
+          'src/css/**/*.css',
+          '!src/css/bootstrap*'
+        ]
+      }
     }
   });
 
@@ -113,6 +124,7 @@ module.exports = function (grunt) {
    * Test tasks.
    */
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-csslint');
   grunt.loadNpmTasks('grunt-bootlint');
 
   /**
@@ -127,6 +139,6 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', ['clean','copy','cache_control','cssmin','htmlmin','uglify']);
 
-  grunt.registerTask('test', ['jshint','bootlint']);
+  grunt.registerTask('test', ['csslint','jshint','bootlint']);
 
 };
