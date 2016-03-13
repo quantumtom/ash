@@ -17,6 +17,7 @@ requirejs.config({
     data:           'app/data',
     models:         'app/models',
     views:          'app/views',
+    ga:             'lib/ga',
     bootstrap:      'lib/bootstrap',
     twbs:           'lib/twbs',
     jquery:         'lib/jquery',
@@ -26,7 +27,7 @@ requirejs.config({
   },
   shim: {
     router: {
-      deps: ['jquery']
+      deps: ['jquery','ga']
     },
     bootstrap: {
       deps: ['jquery']
