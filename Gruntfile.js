@@ -29,12 +29,14 @@ module.exports = function (grunt) {
       }
     },
     cssmin: {
+      options: {
+        shorthandCompacting: false,
+        roundingPrecision: -1
+      },
       dist: {
-        files: grunt.file.expandMapping(['src/css/**/*.css'], 'dist/', {
-          rename: function(destBase, destPath) {
-            return destBase+destPath.replace('src/css', 'css');
-          }
-        })
+        files: {
+          'dist/css/main.css': ['src/css/**/*.css']
+        }
       }
     },
     jshint: {
