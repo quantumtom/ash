@@ -1,5 +1,10 @@
-define(function () {
-  return {
+define('data/accordion', function () {
+  /**
+   * A module representing an accordion dataset.
+   * @exports data/accordion
+   * @type {{title: string, lead: string, body_one: string, body_two: string, body_three: string}}
+   */
+  var accordionData = {
     title: 'Accordion',
     lead: 'The accordion class is an abstract template for creating new modules.',
     body_one: 'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. ' +
@@ -21,4 +26,6 @@ define(function () {
     'vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth ' +
     'nesciunt you probably haven\'t heard of them accusamus labore sustainable VHS.'
   };
+
+  return accordionData;
 });

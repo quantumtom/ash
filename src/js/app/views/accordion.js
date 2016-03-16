@@ -1,4 +1,9 @@
-define(function() {
+/**
+ * A module representing an accordion view.
+ * @module views/accordion
+ */
+
+define('views/accordion', function() {
 
   function render() {
     require(
