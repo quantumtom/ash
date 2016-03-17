@@ -53,18 +53,18 @@ Then you can visit your local instance at [http://localhost:5000](http://localho
 
 ## Dependencies
 
-### ![RequireJS](src/img/vendors/requirejs/logo-01.png)
+### ![RequireJS](/img/vendors/requirejs/logo-01.png)
 [RequireJS](http://www.requirejs.org) is my loader of choice. Dependency management -- say no more, right? 
 Enforces code modularity in a file-based tree hierarchy.
 v. [2.1.8is](http://jrburke.com/2013/07/08/requirejs-2.1.8-released/) included in this project's JavaScript library.
 
-### ![jQuery](src/img/vendors/jquery/logo-01.png)
+### ![jQuery](/img/vendors/jquery/logo-01.png)
 [jQuery](http://www.jquery.org) is the modern foundation of an extensive family of plug-ins, libraries, and extensions. It's a hard depdendency for Bootstrap. Loading it with RequireJS can be a bit tricky.
 
-### ![Bootstrap](src/img/vendors/bootstrap/logo-01.png)
+### ![Bootstrap](/img/vendors/bootstrap/logo-01.png)
 Twitter [Bootstrap](http://getbootstrap.com) is a fantastic UI library that integrates nicely with jQuery.
 
-### ![Handlebars](src/img/vendors/handlebars/logo-01.png)
+### ![Handlebars](/img/vendors/handlebars/logo-01.png)
 Based on [Mustache](http://mustache.github.io/), [Handlebars](http://handlebarsjs.com/) is my HTML template system of choice. Works well in both client and server capacities.
 
 ## Add-Ons
@@ -72,10 +72,10 @@ Based on [Mustache](http://mustache.github.io/), [Handlebars](http://handlebarsj
 A few extra toys are included just for fun. Grunt is currently configured to run JSHint tests against the 41 
 original JavaScript files in the "3MVC" (see below).
 
-### ![Grunt](src/img/vendors/grunt/logo-01.png)
+### ![Grunt](/img/vendors/grunt/logo-01.png)
 The [Grunt](http://www.gruntjs.org) task runner is an indespensible tool for test and building from source files.
 
-### ![JSHint](src/img/vendors/jshint/logo-01.jpg)
+### ![JSHint](/img/vendors/jshint/logo-01.jpg)
 Adjusting the configuration for [JSHint](http://jshint.com/). See the .jshintrc for more info.
 
 ### "3MVC" (_working title_)
