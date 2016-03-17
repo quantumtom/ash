@@ -1,1 +1,1 @@
-define(function(){return{title:"Base Class",body:"The base class is an abstract template for creating new modules."}});
+define("data/base",function(){var baseData={title:"Base Class",body:"The base class is an abstract template for creating new modules."};return baseData});

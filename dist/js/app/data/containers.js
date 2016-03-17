@@ -1,1 +1,1 @@
-define(function(){return{title:"Containers"}});
+define("data/containers",function(){var containersData={title:"Containers"};return containersData});

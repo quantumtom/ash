@@ -1,1 +1,1 @@
-define(function(){return{title:"Progress Bars"}});
+define("data/progressbars",function(){var progresssbarsData={title:"Progress Bars"};return progresssbarsData});
