@@ -104,4 +104,14 @@ I configured Bootstrap to load widgets using CSS themes from [Bootswatch](http:/
 
 2016-02-17 - Fix alignment in Grunt task 
 
-2016-02-18 - Change README.md
+2016-02-18 - Change README.md.
+
+2016-02-19 - Add cache control Grunt task.
+
+2016-03-02 - Add Bootlint testing.
+
+2016-03-12 - Add Grunt task for CSS lint.
+
+2016-03-13 - Add GZip compression for Node/ExpressJS.
+
+2016-03-17 - Add JSDoc support.
