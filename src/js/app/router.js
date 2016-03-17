@@ -1,4 +1,4 @@
-define(function() {
+define('app/router', ['jquery'], function() {
 
   var routes = [
     {hash: '#accordion',    controller: 'accordion'     },

@@ -11,7 +11,6 @@ requirejs.config({
     // the jQuery file, relative to baseUrl.
     // Also, the path should NOT include
     // the '.js' file extension.
-    router:         'app/router',
     parts:          'app/parts',
     controllers:    'app/controllers',
     data:           'app/data',
@@ -26,9 +25,6 @@ requirejs.config({
     hbar:           'lib/hbars'
   },
   shim: {
-    router: {
-      deps: ['jquery','ga']
-    },
     bootstrap: {
       deps: ['jquery']
     },

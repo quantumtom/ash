@@ -1,7 +1,7 @@
 require([
   'models/user',
   'controllers/home',
-  'router'
+  'app/router'
 ], function (User, Home, Router) {
 
   var users = [new User('Tom'),
