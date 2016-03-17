@@ -41,8 +41,18 @@ module.exports = function (grunt) {
       }
     },
     watch: {
-      files: ['src/**'],
-      tasks: ['build']
+      options: {
+        atBegin: true
+      },
+      all: {
+        files: [
+          'src/**',
+          '!src/js/lib/**',
+          'README.md',
+          'Gruntfile.js'
+        ],
+        tasks: ['build']
+      }
     },
     jsdoc: {
       dist : {
