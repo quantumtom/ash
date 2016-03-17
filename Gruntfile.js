@@ -8,7 +8,12 @@ module.exports = function (grunt) {
           'force': true
         },
         src: [
-          'dist'
+          'dist/css',
+          'dist/fonts',
+          'dist/img',
+          'dist/js',
+          'dist/favicon.ico',
+          'dist/index.html'
         ]
       }
     },
@@ -26,11 +31,31 @@ module.exports = function (grunt) {
           '*.png'
         ],
         dest: 'dist'
+      },
+      docs: {
+        expand: true,
+        src: [
+          'README.md'
+        ],
+        dest: 'dist'
       }
     },
     watch: {
       files: ['src/**'],
       tasks: ['build']
+    },
+    jsdoc: {
+      dist : {
+        src: [
+          'src/js/**/*.js',
+          'dist/README.md',
+          '!src/js/lib'
+        ],
+        options: {
+          destination: 'dist/doc',
+          template : 'node_modules/ink-docstrap/template'
+        }
+      }
     },
     htmlmin: {
       dist: {                                      // Target
@@ -131,13 +156,14 @@ module.exports = function (grunt) {
    * Development task.
    */
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-jsdoc');
 
   /**
    *
    */
   grunt.registerTask('default', 'Default grunt task.', ['build']);
 
-  grunt.registerTask('build', ['clean','copy','cache_control','cssmin','htmlmin','uglify']);
+  grunt.registerTask('build', ['clean','copy','cache_control','cssmin','htmlmin','uglify','copy:docs','jsdoc']);
 
   grunt.registerTask('test', ['csslint','jshint','bootlint']);
 

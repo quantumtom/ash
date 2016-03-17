@@ -39,6 +39,7 @@
     "grunt-contrib-uglify": "^1.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-jsdoc": "^1.1.0",
+    "ink-docstrap": "^1.1.4",
     "jshint-stylish": "^2.1.0"
   }
 }
