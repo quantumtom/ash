@@ -102,6 +102,16 @@ module.exports = function (grunt) {
         })
       }
     },
+    less: {
+      development: {
+        options: {
+          paths: ['src/css']
+        },
+        files: {
+          'dist/css/main.css': '**/*.less'
+        }
+      }
+    },
     cssmin: {
       options: {
         shorthandCompacting: false,
@@ -152,6 +162,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
+  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-cache-control');
 
