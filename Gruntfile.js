@@ -105,10 +105,10 @@ module.exports = function (grunt) {
     less: {
       development: {
         options: {
-          paths: ['src/css']
+          paths: ['node_modules/bootstrap/less','src/less']
         },
         files: {
-          'dist/css/main.css': '**/*.less'
+          'dist/css/main.css': 'src/css/**/*.less'
         }
       }
     },
@@ -184,7 +184,7 @@ module.exports = function (grunt) {
    */
   grunt.registerTask('default', 'Default grunt task.', ['build']);
 
-  grunt.registerTask('build', ['clean','copy','cache_control','less','htmlmin','uglify','copy:docs','jsdoc']);
+  grunt.registerTask('build', ['clean','copy','cache_control','cssmin','htmlmin','uglify','copy:docs','jsdoc']);
 
   grunt.registerTask('test', ['csslint','jshint','bootlint']);
 
