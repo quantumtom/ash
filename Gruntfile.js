@@ -47,6 +47,7 @@ module.exports = function (grunt) {
       all: {
         files: [
           'src/**',
+          'src/less/**/*.less',
           '!src/js/lib/**',
           'README.md',
           'Gruntfile.js'
