@@ -103,16 +103,6 @@ module.exports = function (grunt) {
         })
       }
     },
-    less: {
-      development: {
-        options: {
-          paths: ['node_modules/bootstrap/less','src/less']
-        },
-        files: {
-          'dist/css/main.css': 'src/css/**/*.less'
-        }
-      }
-    },
     cssmin: {
       options: {
         shorthandCompacting: false,
