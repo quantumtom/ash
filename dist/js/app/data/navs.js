@@ -1,0 +1,1 @@
+define("data/navs",function(){var navsData={title:"Navs"};return navsData});
