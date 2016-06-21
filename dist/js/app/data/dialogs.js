@@ -1,1 +1,0 @@
-define("data/dialogs",function(){var dialogsData={title:"Dialogs"};return dialogsData});

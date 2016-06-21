@@ -1,1 +1,0 @@
-define("data/buttons",function(){var buttonsData={title:"Buttons"};return buttonsData});
