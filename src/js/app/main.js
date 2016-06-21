@@ -1,8 +1,8 @@
 require([
-  'lib/ga',
   'models/user',
   'controllers/home',
-  'app/router'
+  'app/router',
+  'lib/ga'
 ], function (User, Home, Router) {
 
   var users = [new User('Tom'),
