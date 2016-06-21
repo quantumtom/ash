@@ -1,4 +1,5 @@
 require([
+  'lib/ga',
   'models/user',
   'controllers/home',
   'app/router'
