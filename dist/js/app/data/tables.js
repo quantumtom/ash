@@ -1,1 +1,1 @@
-define("data/tables",function(){var tablesData={title:"Tables"};return tablesData});
+define("data/tables",function(){return{title:"Tables"}});

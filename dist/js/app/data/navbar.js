@@ -1,1 +1,1 @@
-define("data/navbar",function(){var navbarData={title:"Navbar"};return navbarData});
+define("data/navbar",function(){return{title:"Navbar"}});

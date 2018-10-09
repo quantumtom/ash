@@ -1,1 +1,1 @@
-define(function(){function render(){require(["hbar!parts/buttons","data/buttons"],function(buttonsPart,buttonsData){var appDiv=document.getElementById("page-body");appDiv.innerHTML=buttonsPart(buttonsData)})}return{render:render}});
+define(function(){return{render:function(){require(["hbar!parts/buttons","data/buttons"],function(buttonsPart,buttonsData){document.getElementById("page-body").innerHTML=buttonsPart(buttonsData)})}}});

@@ -1,1 +1,1 @@
-define("data/forms",function(){var formsData={title:"Forms"};return formsData});
+define("data/forms",function(){return{title:"Forms"}});

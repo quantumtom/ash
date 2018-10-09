@@ -1,1 +1,1 @@
-define(["views/dialogs"],function(dialogsView){function start(){dialogsView.render()}return{start:start}});
+define(["views/dialogs"],function(dialogsView){return{start:function(){dialogsView.render()}}});

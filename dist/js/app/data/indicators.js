@@ -1,1 +1,1 @@
-define("data/indicators",function(){var indicatorsData={title:"Indicators"};return indicatorsData});
+define("data/indicators",function(){return{title:"Indicators"}});

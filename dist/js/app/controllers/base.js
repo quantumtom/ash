@@ -1,1 +1,1 @@
-define(["views/base"],function(baseView){function start(){baseView.render()}return{start:start}});
+define(["views/base"],function(baseView){return{start:function(){baseView.render()}}});

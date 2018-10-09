@@ -1,1 +1,1 @@
-define("data/typography",function(){var typographyData={title:"Typography"};return typographyData});
+define("data/typography",function(){return{title:"Typography"}});

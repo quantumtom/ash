@@ -1,1 +1,1 @@
-define("data/navs",function(){var navsData={title:"Navs"};return navsData});
+define("data/navs",function(){return{title:"Navs"}});

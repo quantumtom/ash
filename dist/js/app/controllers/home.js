@@ -1,1 +1,1 @@
-define(["views/home"],function(homeView){function start(){homeView.render()}return{start:start}});
+define(["views/home"],function(homeView){return{start:function(){homeView.render()}}});

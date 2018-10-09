@@ -1,1 +1,1 @@
-define(function(){function render(){require(["hbar!parts/home","data/home"],function(homePart,homeData){var appDiv=document.getElementById("page-body");appDiv.innerHTML=homePart(homeData)})}return{render:render}});
+define(function(){return{render:function(){require(["hbar!parts/home","data/home"],function(homePart,homeData){document.getElementById("page-body").innerHTML=homePart(homeData)})}}});

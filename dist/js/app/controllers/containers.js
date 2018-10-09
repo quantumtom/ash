@@ -1,1 +1,1 @@
-define(["views/containers"],function(containersView){function start(){containersView.render()}return{start:start}});
+define(["views/containers"],function(containersView){return{start:function(){containersView.render()}}});

@@ -1,1 +1,1 @@
-define(function(){function render(){require(["hbar!parts/base","data/base"],function(basePart,baseData){var appDiv=document.getElementById("page-body");appDiv.innerHTML=basePart(baseData)})}return{render:render}});
+define(function(){return{render:function(){require(["hbar!parts/base","data/base"],function(basePart,baseData){document.getElementById("page-body").innerHTML=basePart(baseData)})}}});

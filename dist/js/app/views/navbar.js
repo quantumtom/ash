@@ -1,1 +1,1 @@
-define(function(){function render(){require(["hbar!parts/navbar","data/navbar"],function(navbarPart,navbarData){var appDiv=document.getElementById("page-body");appDiv.innerHTML=navbarPart(navbarData)})}return{render:render}});
+define(function(){return{render:function(){require(["hbar!parts/navbar","data/navbar"],function(navbarPart,navbarData){document.getElementById("page-body").innerHTML=navbarPart(navbarData)})}}});

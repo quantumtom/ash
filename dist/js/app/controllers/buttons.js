@@ -1,1 +1,1 @@
-define(["views/buttons"],function(buttonsView){function start(){buttonsView.render()}return{start:start}});
+define(["views/buttons"],function(buttonsView){return{start:function(){buttonsView.render()}}});

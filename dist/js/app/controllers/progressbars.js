@@ -1,1 +1,1 @@
-define(["views/progressbars"],function(progressbarsView){function start(){progressbarsView.render()}return{start:start}});
+define(["views/progressbars"],function(progressbarsView){return{start:function(){progressbarsView.render()}}});

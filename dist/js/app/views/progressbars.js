@@ -1,1 +1,1 @@
-define(function(){function render(){require(["hbar!parts/progressbars","data/progressbars"],function(progressbarsPart,progressbarsData){var appDiv=document.getElementById("page-body");appDiv.innerHTML=progressbarsPart(progressbarsData)})}return{render:render}});
+define(function(){return{render:function(){require(["hbar!parts/progressbars","data/progressbars"],function(progressbarsPart,progressbarsData){document.getElementById("page-body").innerHTML=progressbarsPart(progressbarsData)})}}});

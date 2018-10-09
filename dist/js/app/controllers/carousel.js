@@ -1,1 +1,1 @@
-define(["views/carousel"],function(carouselView){function start(){carouselView.render()}return{start:start}});
+define(["views/carousel"],function(carouselView){return{start:function(){carouselView.render()}}});

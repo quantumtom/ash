@@ -1,1 +1,1 @@
-define(function(){function render(){require(["hbar!parts/containers","data/containers"],function(containersPart,containersData){var appDiv=document.getElementById("page-body");appDiv.innerHTML=containersPart(containersData)})}return{render:render}});
+define(function(){return{render:function(){require(["hbar!parts/containers","data/containers"],function(containersPart,containersData){document.getElementById("page-body").innerHTML=containersPart(containersData)})}}});
