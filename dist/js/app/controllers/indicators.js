@@ -1,1 +1,0 @@
-define(["views/indicators"],function(indicatorsView){return{start:function(){indicatorsView.render()}}});

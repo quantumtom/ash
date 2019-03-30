@@ -1,1 +1,0 @@
-define(function(){return{render:function(){require(["hbar!parts/indicators","data/indicators"],function(indicatorsPart,indicatorsData){document.getElementById("page-body").innerHTML=indicatorsPart(indicatorsData)})}}});

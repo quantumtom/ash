@@ -1,1 +1,0 @@
-define(["views/forms"],function(formsView){return{start:function(){formsView.render()}}});

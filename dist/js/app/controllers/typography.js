@@ -1,1 +1,0 @@
-define(["views/typography"],function(typographyView){return{start:function(){typographyView.render()}}});

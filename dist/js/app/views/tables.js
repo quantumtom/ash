@@ -1,1 +1,0 @@
-define(function(){return{render:function(){require(["hbar!parts/tables","data/tables"],function(tablesPart,tablesData){document.getElementById("page-body").innerHTML=tablesPart(tablesData)})}}});

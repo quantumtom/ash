@@ -1,1 +1,0 @@
-define(function(){return{render:function(){require(["hbar!parts/buttons","data/buttons"],function(buttonsPart,buttonsData){document.getElementById("page-body").innerHTML=buttonsPart(buttonsData)})}}});

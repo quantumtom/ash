@@ -1,1 +1,0 @@
-define(["views/navbar"],function(navbarView){return{start:function(){navbarView.render()}}});

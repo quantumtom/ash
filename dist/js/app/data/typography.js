@@ -1,1 +1,0 @@
-define("data/typography",function(){return{title:"Typography"}});

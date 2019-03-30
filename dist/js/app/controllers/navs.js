@@ -1,1 +1,0 @@
-define(["views/navs"],function(navsView){return{start:function(){navsView.render()}}});

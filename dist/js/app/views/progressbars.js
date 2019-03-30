@@ -1,1 +1,0 @@
-define(function(){return{render:function(){require(["hbar!parts/progressbars","data/progressbars"],function(progressbarsPart,progressbarsData){document.getElementById("page-body").innerHTML=progressbarsPart(progressbarsData)})}}});

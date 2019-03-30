@@ -1,1 +1,0 @@
-define(function(){return{render:function(){require(["hbar!parts/carousel","data/carousel"],function(carouselPart,carouselData){document.getElementById("page-body").innerHTML=carouselPart(carouselData)})}}});

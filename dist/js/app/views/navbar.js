@@ -1,1 +1,0 @@
-define(function(){return{render:function(){require(["hbar!parts/navbar","data/navbar"],function(navbarPart,navbarData){document.getElementById("page-body").innerHTML=navbarPart(navbarData)})}}});

@@ -1,1 +1,0 @@
-define(["views/base"],function(baseView){return{start:function(){baseView.render()}}});

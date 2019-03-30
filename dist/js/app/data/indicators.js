@@ -1,1 +1,0 @@
-define("data/indicators",function(){return{title:"Indicators"}});

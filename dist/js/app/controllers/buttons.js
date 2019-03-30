@@ -1,1 +1,0 @@
-define(["views/buttons"],function(buttonsView){return{start:function(){buttonsView.render()}}});

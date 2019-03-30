@@ -1,1 +1,0 @@
-define(["views/accordion"],function(accordionView){return{start:function(){accordionView.render()}}});

@@ -1,1 +1,0 @@
-define("views/accordion",function(){return{render:function(){require(["hbar!parts/accordion","data/accordion"],function(accordionPart,accordionData){document.getElementById("page-body").innerHTML=accordionPart(accordionData)})}}});

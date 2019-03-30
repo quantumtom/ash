@@ -1,1 +1,0 @@
-define("data/tables",function(){return{title:"Tables"}});

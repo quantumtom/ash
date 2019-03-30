@@ -1,1 +1,0 @@
-define(function(){return{render:function(){require(["hbar!parts/typography","data/typography"],function(typographyPart,typographyData){document.getElementById("page-body").innerHTML=typographyPart(typographyData)})}}});

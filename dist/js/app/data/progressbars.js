@@ -1,1 +1,0 @@
-define("data/progressbars",function(){return{title:"Progress Bars"}});

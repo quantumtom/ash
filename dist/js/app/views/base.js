@@ -1,1 +1,0 @@
-define(function(){return{render:function(){require(["hbar!parts/base","data/base"],function(basePart,baseData){document.getElementById("page-body").innerHTML=basePart(baseData)})}}});

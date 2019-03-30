@@ -1,1 +1,0 @@
-define(function(){return{render:function(){require(["hbar!parts/home","data/home"],function(homePart,homeData){document.getElementById("page-body").innerHTML=homePart(homeData)})}}});

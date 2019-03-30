@@ -1,1 +1,0 @@
-define(function(){return{render:function(){require(["hbar!parts/forms","data/forms"],function(formsPart,formsData){document.getElementById("page-body").innerHTML=formsPart(formsData)})}}});

@@ -1,1 +1,0 @@
-define("data/forms",function(){return{title:"Forms"}});
