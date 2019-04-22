@@ -25,13 +25,12 @@
     "bootstrap": ">=4.3.1",
     "compression": "^1.6.1",
     "express": "^4.13.4",
-    "popper.js": "^1.14.4",
+    "popper.js": "^1.14.7",
     "jquery": "^3.3.1"
   },
   "devDependencies": {
-    "grunt": "^1.0.3",
+    "grunt": "^1.0.4",
     "grunt-bootlint": "^0.11.1",
-    "grunt-cache-control": "^0.2.5",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-copy": "^1.0.0",
@@ -40,7 +39,6 @@
     "grunt-contrib-htmlmin": "^3.0.0",
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-jsdoc": "^2.1.0",
     "ink-docstrap": "^1.1.4",
     "jshint-stylish": "^2.1.0",
     "npm-bump": "0.0.25"

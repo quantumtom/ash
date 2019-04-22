@@ -155,7 +155,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-htmlmin');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-cache-control');
 
   /**
    * Test tasks.
@@ -168,7 +167,6 @@ module.exports = function (grunt) {
    * Development task.
    */
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-jsdoc');
 
   /**
    *
